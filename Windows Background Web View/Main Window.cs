@@ -28,6 +28,9 @@ namespace Windows_Background_Web_View
             this.Cursor = Cursors.Arrow;
             // Update window to be on the bottom of the screen
             Utilities.SetWindowPos(Handle, Utilities.HWND_BOTTOM, 0, 0, 0, 0, Utilities.SWP_NOMOVE | Utilities.SWP_NOSIZE | Utilities.SWP_NOACTIVATE);
+
+            MinimizeBox = false;
+            MaximizeBox = false;
         }
 
         /// <summary>

@@ -56,7 +56,7 @@ namespace Windows_Background_Web_View
             Cef.EnableHighDPISupport();
             // Create the browser instance
             mBrowser = new ChromiumWebBrowser("about:blank");
-            mBrowser.LoadHtml(@"<iframe width='1280' height='720' src='https://www.youtube.com/embed/_o74BnFSr8g?controls=0&showinfo=0&autoplay=1' frameborder='0' allowfullscreen></iframe>", "http://cats.lololol");
+            mBrowser.LoadHtml(@"<iframe width='1280' height='720' src='https://www.youtube.com/embed/H0euSoQ4Ue8?controls=0&showinfo=0&autoplay=1' frameborder='0' allowfullscreen></iframe>", "http://cats.lololol");
             
             // Make sure no other controls exist
             Controls.Clear();

@@ -9,7 +9,6 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using CefSharp;
 using CefSharp.WinForms;
-
 namespace Windows_Background_Web_View
 {
     public partial class Form1 : Form
@@ -31,6 +30,22 @@ namespace Windows_Background_Web_View
 
             MinimizeBox = false;
             MaximizeBox = false;
+
+            // create timer to close splash screen
+            //System.Timers.Timer timer = new System.Timers.Timer();
+            //timer.Elapsed += (cc,d) => { CloseSplash(); };
+            //timer.Interval = 5000;
+            //timer.Enabled = true;
+
+            //splash = new Splash();
+            //splash.Show();
+        }
+        Splash splash;
+
+        // move this into splash.
+        public void CloseSplash()
+        {
+           // splash.Close();
         }
 
         /// <summary>

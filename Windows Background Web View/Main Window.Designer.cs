@@ -34,8 +34,11 @@
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.moveToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-            this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aboutbutton = new System.Windows.Forms.ToolStripMenuItem();
+            this.KittenAcademyWebsite = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.DonateItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
             this.contextmenu.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -47,47 +50,69 @@
             this.toolStripSeparator1,
             this.moveToolStripMenuItem,
             this.toolStripSeparator2,
-            this.aboutToolStripMenuItem,
+            this.DonateItem,
+            this.KittenAcademyWebsite,
+            this.toolStripSeparator3,
+            this.aboutbutton,
             this.exitToolStripMenuItem});
             this.contextmenu.Name = "contextmenu";
-            this.contextmenu.Size = new System.Drawing.Size(149, 136);
+            this.contextmenu.Size = new System.Drawing.Size(222, 235);
             // 
             // settingsToolStripMenuItem
             // 
             this.settingsToolStripMenuItem.Name = "settingsToolStripMenuItem";
-            this.settingsToolStripMenuItem.Size = new System.Drawing.Size(148, 30);
+            this.settingsToolStripMenuItem.Size = new System.Drawing.Size(221, 30);
             this.settingsToolStripMenuItem.Text = "Settings";
             this.settingsToolStripMenuItem.Click += new System.EventHandler(this.settingsToolStripMenuItem_Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(145, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(218, 6);
             // 
             // moveToolStripMenuItem
             // 
             this.moveToolStripMenuItem.Name = "moveToolStripMenuItem";
-            this.moveToolStripMenuItem.Size = new System.Drawing.Size(148, 30);
+            this.moveToolStripMenuItem.Size = new System.Drawing.Size(221, 30);
             this.moveToolStripMenuItem.Text = "Move";
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(145, 6);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(218, 6);
             // 
-            // aboutToolStripMenuItem
+            // aboutbutton
             // 
-            this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(148, 30);
-            this.aboutToolStripMenuItem.Text = "About";
-            this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
+            this.aboutbutton.Name = "aboutbutton";
+            this.aboutbutton.Size = new System.Drawing.Size(221, 30);
+            this.aboutbutton.Text = "About";
+            this.aboutbutton.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
+            // 
+            // KittenAcademyWebsite
+            // 
+            this.KittenAcademyWebsite.Name = "KittenAcademyWebsite";
+            this.KittenAcademyWebsite.Size = new System.Drawing.Size(221, 30);
+            this.KittenAcademyWebsite.Text = "Kitten Academy";
+            this.KittenAcademyWebsite.Click += new System.EventHandler(this.KittenAcademyWebsite_Click);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(148, 30);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(221, 30);
             this.exitToolStripMenuItem.Text = "Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
+            // 
+            // DonateItem
+            // 
+            this.DonateItem.Name = "DonateItem";
+            this.DonateItem.Size = new System.Drawing.Size(221, 30);
+            this.DonateItem.Text = "Donate";
+            this.DonateItem.Click += new System.EventHandler(this.DonateItem_Click);
+            // 
+            // toolStripSeparator3
+            // 
+            this.toolStripSeparator3.Name = "toolStripSeparator3";
+            this.toolStripSeparator3.Size = new System.Drawing.Size(218, 6);
             // 
             // Form1
             // 
@@ -114,11 +139,14 @@
 
         private System.Windows.Forms.ContextMenuStrip contextmenu;
         private System.Windows.Forms.ToolStripMenuItem settingsToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem KittenAcademyWebsite;
         private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
         private System.Windows.Forms.ToolStripMenuItem moveToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
+        private System.Windows.Forms.ToolStripMenuItem aboutbutton;
+        private System.Windows.Forms.ToolStripMenuItem DonateItem;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;
     }
 }
 

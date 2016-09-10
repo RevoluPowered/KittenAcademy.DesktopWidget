@@ -59,6 +59,7 @@ namespace Windows_Background_Web_View
             Cef.EnableHighDPISupport();
             // Create the browser instance
             mBrowser = new ChromiumWebBrowser("about:blank");
+            
             mBrowser.LoadHtml(@"<iframe width='1280' height='720' src='https://www.youtube.com/embed/H0euSoQ4Ue8?controls=0&showinfo=0&autoplay=1' frameborder='0' allowfullscreen></iframe>", "http://cats.lololol");
             
             // Make sure no other controls exist
@@ -96,6 +97,26 @@ namespace Windows_Background_Web_View
 
             // Exit application
             Application.Exit();
+        }
+
+        private void donateToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void aboutToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void KittenAcademyWebsite_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("http://kitten.academy/");
+        }
+
+        private void DonateItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("http://kitten.academy/donations/");
         }
     }
 }

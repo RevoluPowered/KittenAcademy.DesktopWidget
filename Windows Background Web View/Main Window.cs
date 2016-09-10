@@ -20,33 +20,21 @@ namespace Windows_Background_Web_View
 
             // Align to the right of the screen
             Rectangle rect = Screen.FromControl(this).Bounds;
-            this.Location = new Point(rect.Width - 1280 - 400, 200);
-            
+            this.Location = new Point(rect.Width - 1280 - 400, 200);            
 
             // Fix cursor
             this.Cursor = Cursors.Arrow;
+
             // Update window to be on the bottom of the screen
             Utilities.SetWindowPos(Handle, Utilities.HWND_BOTTOM, 0, 0, 0, 0, Utilities.SWP_NOMOVE | Utilities.SWP_NOSIZE | Utilities.SWP_NOACTIVATE);
-
+            
+            // Disable minimize and maximise options            
             MinimizeBox = false;
             MaximizeBox = false;
-
-            // create timer to close splash screen
-            //System.Timers.Timer timer = new System.Timers.Timer();
-            //timer.Elapsed += (cc,d) => { CloseSplash(); };
-            //timer.Interval = 5000;
-            //timer.Enabled = true;
-
-            //splash = new Splash();
-            //splash.Show();
-        }
-        Splash splash;
-
-        // move this into splash.
-        public void CloseSplash()
-        {
-           // splash.Close();
-        }
+            
+            Splash splash = new Splash();
+            splash.ShowDialog();
+        }        
 
         /// <summary>
         /// The web browser reference

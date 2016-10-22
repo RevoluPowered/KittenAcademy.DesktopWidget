@@ -13,3 +13,8 @@ http://kitten.academy/
 Current livestream address: https://www.youtube.com/watch?v=YPv9yKC76hE
 
 The application is not sponsored by Kitten Academy.
+
+The project is licensed in this way:
+https://creativecommons.org/licenses/by/4.0/
+
+The licence file is in the project and supplied in all the builds.

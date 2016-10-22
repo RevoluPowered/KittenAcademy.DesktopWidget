@@ -6,6 +6,8 @@ It uses the CEF Sharp and Chromium.
 Authored by Gordon Alexander MacPherson 2016 in 2 hours.
 
 
+please note: this is still in development, but your support would be appreciated.
+
 
 This software was built freely for:
 http://kitten.academy/
@@ -18,3 +20,6 @@ The project is licensed in this way:
 https://creativecommons.org/licenses/by/4.0/
 
 The licence file is in the project and supplied in all the builds.
+
+
+Huge thanks to the CEFSharp team, and all developers who built the high level libraries we use today!

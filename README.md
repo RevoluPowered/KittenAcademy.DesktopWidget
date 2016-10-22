@@ -6,7 +6,7 @@ It uses the CEF Sharp and Chromium.
 Authored by Gordon Alexander MacPherson 2016 in 2 hours.
 
 
-#### please note: this is still in development, but your support would be appreciated.
+#### Please note: this is still in development, but your support would be appreciated.
 
 
 This software was built freely for:

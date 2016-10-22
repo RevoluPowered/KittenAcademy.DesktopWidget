@@ -22,4 +22,4 @@ https://creativecommons.org/licenses/by/4.0/
 The licence file is in the project and supplied in all the builds.
 
 
-Huge thanks to the CEFSharp team, and all developers who built the high level libraries we use today!
+Huge thanks to the CEFSharp team, Github, and all developers who built the high level libraries we use today!
